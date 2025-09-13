@@ -1,0 +1,60 @@
+# 金融AI智能投研助手
+
+## Core Features
+
+- 多模型金融知识问答
+
+- 实时市场数据搜索
+
+- 专业金融图表绘制
+
+- 基本面技术面深度分析
+
+- AI投资建议生成
+
+## Tech Stack
+
+{
+  "Web": {
+    "arch": "react",
+    "component": "tdesign"
+  },
+  "Backend": "Python FastAPI with Pandas, Plotly, ChromaDB",
+  "Data": "腾讯云金融API + 多模型API集成"
+}
+
+## Design
+
+Glassmorphism Tech Blue专业金融风格，深蓝色科技感界面，强调数据可视化和信息层级
+
+## Plan
+
+Note: 
+
+- [ ] is holding
+- [/] is doing
+- [X] is done
+
+---
+
+[X] 搭建基础项目结构和FastAPI后端框架
+
+[X] 集成腾讯云金融数据API和实时行情接口
+
+[X] 实现多模型API集成模块(Deepseek、豆包、通义千问)
+
+[X] 构建金融知识库向量存储和检索系统
+
+[X] 开发基本面分析和技术面分析核心算法
+
+[X] 实现金融图表生成和数据可视化模块
+
+[X] 开发React前端界面和用户交互功能
+
+[X] 集成AI分析报告生成和导出功能
+
+[X] 解决系统环境依赖问题
+
+[X] 配置前端路由和导航
+
+[X] 启动开发服务器进行测试

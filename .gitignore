@@ -1,0 +1,67 @@
+# 前端依赖
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+
+# 后端虚拟环境
+backend/venv/
+backend/.env
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.so
+backend/.Python
+backend/data/
+backend/uploads/
+backend/reports/
+
+# 开发环境
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 调试文件
+*.pdb
+
+# 本地开发配置
+local.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 构建产物
+build/
+out/
+.next/
+.cache/
+.serverless/
+.fusebox/
+.dynamodb/
+
+# 其他
+*.bak
+*.tmp
+*.temp
+*~
+*.sublime-workspace
+*.sublime-project

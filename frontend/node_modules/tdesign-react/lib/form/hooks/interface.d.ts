@@ -1,0 +1,16 @@
+import type { NamePath, FormInstanceFunctions } from '../type';
+export type Store = Record<string, any>;
+export type WatchCallBack = (values: Store, namePathList: NamePath) => void;
+export interface InternalHooks {
+    notifyWatch: (name: NamePath) => void;
+    registerWatch: (callback: WatchCallBack) => () => void;
+    getPrevStore: () => Store;
+    setPrevStore: (store: Store) => void;
+    flashQueue: () => void;
+    setForm: (form: any) => void;
+}
+export interface InternalFormInstance extends FormInstanceFunctions {
+    _init?: boolean;
+    store?: Store;
+    getInternalHooks?: (secret: string) => InternalHooks | null;
+}
